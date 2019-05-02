@@ -4,7 +4,7 @@ LABEL maintainer="Vlad Milutin <vlad.milytin@gmail.com>"
 
 ENV LANG C.UTF-8
 
-ENV OPENCV_VERSION 3.4
+ENV OPENCV_VERSION 3.2.0
 ENV OPENCV_SRC_URL "https://github.com/opencv/opencv/archive/$OPENCV_VERSION.tar.gz"
 ENV OPENCV_INSTALL_PREFIX "/usr/local/opencv"
 ENV OPENCV_JAVA_PATH "$OPENCV_INSTALL_PREFIX/share/OpenCV/java"
